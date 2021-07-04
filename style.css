@@ -51,7 +51,7 @@ span {
 }
 
 .sub-titel {
-    color: orange;
+    color: black;
 }
 
 .experience {
@@ -64,19 +64,21 @@ span {
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.4206057422969187) 67%, rgba(252, 176, 69, 1) 100%);
     box-shadow: 10px 10px 40px gray;
     width: 40%
 }
 
 #full-stack-experience {
-    border-image: linear-gradient(blue, cyan);
-    border-left: 7px solid;
+    border-image:
+        border-left: 7px solid;
     border-image-slice: 1;
 }
 
 #web-dev-experience {
-    border-image: linear-gradient(#372105, #670C80);
-    border-left: 7px solid;
+    border-image:
+        border-left: 7px solid;
     border-image-slice: 1;
 }
 
@@ -84,6 +86,5 @@ footer {
     text-align: center;
 }
 
-.experience h1 {
+.ex-button {
     text-align: center;
-}
