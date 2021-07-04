@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -18,13 +19,23 @@ section {
     width: 50%;
     padding: 2%;
 }
+
 .half-width img {
     width: 80%;
 }
-.anchor-button{
+
+.anchor-button {
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.top-banner {
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
