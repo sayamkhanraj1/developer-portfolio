@@ -6,7 +6,8 @@ body {
 h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
 
@@ -42,40 +43,47 @@ span {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.sub-titel{
+
+.sub-titel {
     color: orange;
 }
-.experience{
+
+.experience {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-.experienc-item{
+
+.experienc-item {
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
     width: 40%
 }
-#full-stack-experience{
+
+#full-stack-experience {
     border-image: linear-gradient(blue, cyan);
     border-left: 7px solid;
     border-image-slice: 1;
 }
-#web-dev-experience{
+
+#web-dev-experience {
     border-image: linear-gradient(#372105, #670C80);
     border-left: 7px solid;
     border-image-slice: 1;
 }
-footer{
+
+footer {
     text-align: center;
 }
-.experience h1{
+
+.experience h1 {
     text-align: center;
 }
